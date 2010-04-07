@@ -2,3 +2,17 @@ Flex Library which holds flags of the world, provided in one SWC
 all images are imported as classes and can be used as such.
 
 Flags icons are made by www.IconDrawer.com
+
+
+Usage:
+
+import com.0infinity.FlagLibrary
+
+image.source = com.0infinity.FlagLibary.flg_zwitserland;
+
+or use the object:
+
+image.source = com.0infinity.FlagLibrary['zwitserland'];
+
+
+enjoy!
